@@ -116,3 +116,11 @@
         width: 485px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .tour-plan-place{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+}
