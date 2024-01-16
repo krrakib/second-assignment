@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+* {
+    font-family: Mulish;
+    max-width: 1400px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+
+}
+
+.nav-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-heading-img {
+    height: 56px;
+    width: 48px;
+}
+
+.nav-heading-title {
+    color: #131318;
+    font-size: 36px;
+}
+
+.nave-heading-span {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+
+.nav-item {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-menu-item a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+}
+
+.nav-menu-item-span {
+    font-weight: 700;
+    color: #FF5400;
+
+}
+
+.nav-bar-icon {
+    font-weight: 700;
+    display: none;
+
+}
+
+.banner {
+    background-repeat: no-repeat;
+    width: 1100px;
+    height: 450px;
+    margin: auto;
+    padding-top: 50px;
+    border-radius: 16px;
+    background-image: url("../Images/Group\ 13.png");
+    text-align: center;
+    background: linear-gradient(rgba(22, 22, 22, 0.5) 0%, )
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.banner-input {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.banner-input-first {
+    width: 174px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.banner-input-second {
+    position: relative;
+    width: 174px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.banner-input-third {
+    position: relative;
+    width: 174px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.banner-arrow-icon-first {
+    position: absolute;
+    bottom: 135px;
+    left: 610px;
+}
+
+.banner-arrow-icon-second {
+    position: absolute;
+    bottom: 135px;
+    left: 820px;
+}
+
+.btn-primary {
+    width: 174px;
+    height: 45px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+}
+
+
+
+/*section for tour plan*/
+
+.tour-plan-section {
+    width: 1100px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+    margin-top: 50px;
+}
+
+.tour-plan-heading {
+    color: #131318;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.tour-plan-text {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.tour-plan-img {
+    width: 440px;
+    height: 400px;
+    flex-shrink: 0;
+}
+
+.btn-tour-plan {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.destination {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.destination-heading {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.destination-text {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.img-colage {
+    width: 1150px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.row {
+    height: 300px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-text {
+    position: relative;
+    text-align: center;
+    color: #FFF;
+}
+
+.img-country {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+.coose-us-section{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.choose-us-heading{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-us-text{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
