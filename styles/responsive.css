@@ -3,45 +3,46 @@
         flex-direction: row;
         padding: 0;
     }
-    .nav-bar-icon{
+
+    .nav-bar-icon {
         display: block;
         padding-right: 20px;
     }
 
-    .nav-item{
+    .nav-item {
         display: none;
     }
-    
+
 }
 
 @media screen and (max-width: 600px) {
 
-    .banner{
+    .banner {
         width: auto;
         height: 450px;
         padding-top: 20;
-        background: linear-gradient(rgba(0, 0, 0, 0.8) 0%,)
+        background: linear-gradient(rgba(0, 0, 0, 0.8) 0%, )
     }
 
-    .banner-title{
+    .banner-title {
         font-size: 22px;
         font-weight: 800;
     }
 
-    .banner-text{
+    .banner-text {
         font-size: 14px;
     }
 
-    .banner-input{
+    .banner-input {
         flex-direction: column;
     }
 
-    .banner-arrow-icon-first{
+    .banner-arrow-icon-first {
         left: 350px;
         top: 405px;
     }
 
-    .banner-arrow-icon-second{
+    .banner-arrow-icon-second {
         left: 350px;
         top: 476px;
     }
@@ -49,30 +50,69 @@
 
 
 @media screen and (max-width: 600px) {
-    .tour-plan-section{
+    .tour-plan-section {
         flex-direction: column;
         margin: 10px;
         width: auto;
         gap: 20px;
     }
 
-    .tour-plan-img{
+    .tour-plan-img {
         width: 500px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .destination{
+    .destination {
         margin-top: 400px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .row{
+    .row {
         flex-direction: column;
         height: auto;
     }
-    .img-colage{
+
+    .img-colage {
         width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .services-first-section {
+        flex-direction: column;
+        width: 580px;
+        gap: 20px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .newslatter-section {
+        flex-direction: column;
+        width: 500px;
+        margin-bottom: 50px;
+    }
+
+    .newslatter-section-second {
+        width: 500px;
+    }
+
+    .newslatter-section-firts {
+        width: 500px;
+    }
+
+    .newslatter-section-transform {
+        translate: 275px 260px;
+        
+    }
+
+    .newslatter-input-name{
+        width: 485px;
+    }
+
+    .newslatter-button{
+        width: 485px;
     }
 }
